@@ -30,7 +30,8 @@ class HomeShell extends StatefulWidget {
 }
 
 class _HomeShellState extends State<HomeShell> {
-  int _index = 0;
+  // ?tab=N on the web build opens a given tab (used for store screenshots).
+  int _index = (int.tryParse(Uri.base.queryParameters['tab'] ?? '') ?? 0).clamp(0, 2);
   static const _titles = ['Concrete Contractors Estimator', 'Pour day planner', 'About'];
 
   @override

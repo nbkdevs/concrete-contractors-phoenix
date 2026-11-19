@@ -78,7 +78,15 @@ Tests: `npm test` (packages/npm, packages/docker), `python -m unittest` (package
 ## Elsewhere
 
 <!-- elsewhere:start -->
-_Live listings are added here as they are published._
+- npm: [concrete-contractors-estimator](https://www.npmjs.com/package/concrete-contractors-estimator)
+- PyPI: [concrete-contractors-estimator](https://pypi.org/project/concrete-contractors-estimator/)
+- crates.io: [concrete-contractors-estimator](https://crates.io/crates/concrete-contractors-estimator)
+- pub.dev: [concrete_contractors_estimator](https://pub.dev/packages/concrete_contractors_estimator)
+- NuGet: [PhoenixConcreteContractors.Estimator](https://www.nuget.org/packages/PhoenixConcreteContractors.Estimator)
+- RubyGems: [concrete_contractors_estimator](https://rubygems.org/gems/concrete_contractors_estimator)
+- Docker Hub: [iamnazzal/concrete-contractors-estimator](https://hub.docker.com/r/iamnazzal/concrete-contractors-estimator)
+- Hugging Face: [Concrete Contractors Estimator Space](https://huggingface.co/spaces/iamnazzal/concrete-contractors-estimator)
+- ClawHub: [concrete-contractors-estimator skill](https://clawhub.ai/nbkdevs/concrete-contractors-estimator)
 <!-- elsewhere:end -->
 
 ## License
