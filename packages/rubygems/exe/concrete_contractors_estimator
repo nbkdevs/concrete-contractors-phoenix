@@ -1,0 +1,42 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "concrete_contractors_estimator"
+C = ConcreteContractorsEstimator
+
+def show(shape, e)
+  puts "#{shape}: #{e[:cubic_yards]} yd3 (#{e[:cubic_feet]} ft3 incl. waste) - order #{e[:order_yards]} yd3"
+  puts "Bags: #{e[:bags80]} x 80 lb, #{e[:bags60]} x 60 lb or #{e[:bags40]} x 40 lb"
+  puts "Suggestion: #{e[:suggestion]}"
+end
+
+a = ARGV
+n = ->(i) { Float(a.fetch(i)) }
+begin
+  case a[0]
+  when "slab"
+    l, w, t = n[1], n[2], n[3]
+    show("slab", C.estimate(C.slab_volume(l, w, t)))
+    rb = C.rebar(l, w)
+    puts "Rebar: #{rb[:linear_feet]} ft (#{rb[:sticks20]} x 20 ft sticks) or #{C.mesh_sheets(l * w)} mesh sheets"
+    c = C.cost_range(l * w, finish: a[4] || "broom", thickness_in: t)
+    puts "Rough installed cost: $#{c[:low]} - $#{c[:high]}"
+  when "footing" then show("footing", C.estimate(C.footing_volume(n[1], n[2], n[3])))
+  when "column" then show("column", C.estimate(C.column_volume(n[1], n[2], a[3] ? Integer(a[3]) : 1)))
+  when "steps" then show("steps", C.estimate(C.steps_volume(Integer(a[1]), n[2], n[3], n[4])))
+  when "pour"
+    p = C.pour_advice(n[1], a[2] ? Integer(a[2]) : nil)
+    puts "Heat risk: #{p[:risk]}", "Start: #{p[:start]}"
+    p[:tips].each { |t| puts "- #{t}" }
+  else
+    puts "Usage: concrete_contractors_estimator slab|footing|column|steps|pour ...",
+         "  slab <length-ft> <width-ft> <thickness-in> [finish]",
+         "  footing <length-ft> <width-in> <depth-in>",
+         "  column <diameter-in> <height-ft> [count]",
+         "  steps <steps> <rise-in> <run-in> <width-ft>",
+         "  pour <forecast-high-F> [month]"
+  end
+rescue ArgumentError, IndexError, TypeError => e
+  warn "Error: #{e.message}"
+  exit 1
+end

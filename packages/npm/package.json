@@ -1,0 +1,50 @@
+{
+  "name": "concrete-contractors-estimator",
+  "version": "1.0.0",
+  "description": "Concrete contractors estimator: slab, driveway, patio, footing, column and steps volume in cubic yards, 80/60/40 lb bag counts, rebar and mesh, rough cost range and hot-weather pour advice. Zero dependencies.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "bin": {
+    "concrete-contractors-estimator": "bin/cli.js",
+    "concrete-estimate": "bin/cli.js"
+  },
+  "files": [
+    "lib",
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "concrete",
+    "concrete-calculator",
+    "concrete-contractors",
+    "cubic-yards",
+    "slab",
+    "driveway",
+    "patio",
+    "footing",
+    "rebar",
+    "estimator",
+    "hot-weather-concreting"
+  ],
+  "homepage": "https://concretecontractorsphoenix.net/",
+  "bugs": {
+    "url": "https://github.com/nbkdevs/concrete-contractors-phoenix/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbkdevs/concrete-contractors-phoenix.git",
+    "directory": "packages/npm"
+  },
+  "author": {
+    "name": "Phoenix Concrete Contractors",
+    "url": "https://concretecontractorsphoenix.net/"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  }
+}

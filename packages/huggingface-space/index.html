@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Concrete Contractors Estimator: yards, bags, rebar and pour advice</title>
+<meta name="description" content="Free concrete calculator: slab, driveway, patio, footing, column and steps volume in cubic yards, 80/60/40 lb bags, rebar, rough cost and hot-weather pour advice.">
+<style>
+  :root { --bg:#fbf6ef; --card:#fff; --ink:#2b2420; --muted:#7a6a5d; --accent:#c8553d; --accent2:#e9a03b; --line:#eadfd2; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; color:var(--ink); background:linear-gradient(180deg,#f6d6a8 0,#fbf6ef 260px); }
+  header { padding:28px 20px 8px; max-width:960px; margin:auto; }
+  h1 { margin:0 0 4px; font-size:1.7rem; }
+  header p { margin:0; color:var(--muted); }
+  main { max-width:960px; margin:auto; padding:12px 20px 40px; display:grid; gap:18px; grid-template-columns:1fr 1fr; }
+  @media (max-width:760px){ main { grid-template-columns:1fr; } }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px; box-shadow:0 2px 10px rgba(80,50,20,.06); }
+  h2 { margin:0 0 12px; font-size:1.1rem; }
+  .tabs { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:14px; }
+  .tabs button { border:1px solid var(--line); background:#fff7ee; padding:6px 12px; border-radius:999px; cursor:pointer; font:inherit; font-size:.9rem; }
+  .tabs button.on { background:var(--accent); color:#fff; border-color:var(--accent); }
+  label { display:block; font-size:.85rem; color:var(--muted); margin:8px 0 2px; }
+  input, select { width:100%; padding:8px 10px; border:1px solid var(--line); border-radius:8px; font:inherit; background:#fff; }
+  .row { display:grid; grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); gap:10px; }
+  .big { font-size:2rem; font-weight:700; color:var(--accent); }
+  .stats { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin-top:10px; }
+  .stat { background:#fff7ee; border-radius:10px; padding:8px; text-align:center; }
+  .stat b { display:block; font-size:1.2rem; }
+  .stat span { font-size:.78rem; color:var(--muted); }
+  ul { padding-left:18px; margin:8px 0 0; }
+  .risk { display:inline-block; padding:2px 10px; border-radius:999px; color:#fff; font-weight:600; text-transform:capitalize; }
+  .low{background:#3b8f5a}.moderate{background:#d18b1f}.high{background:#c8553d}.extreme{background:#8e1f1f}
+  .err { color:#a0281b; font-size:.9rem; min-height:1.2em; }
+  footer { max-width:960px; margin:auto; padding:0 20px 30px; color:var(--muted); font-size:.85rem; }
+  footer a { color:var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Concrete Contractors Estimator</h1>
+  <p>Work out cubic yards, bag counts, rebar and a rough cost for a slab, driveway, patio, footing, column or steps, then plan the pour around the heat.</p>
+</header>
+<main>
+  <section class="card">
+    <h2>1. Measure the pour</h2>
+    <div class="tabs" id="tabs">
+      <button data-s="slab" class="on">Slab / driveway / patio</button>
+      <button data-s="footing">Footing</button>
+      <button data-s="column">Column</button>
+      <button data-s="steps">Steps</button>
+    </div>
+    <div id="fields"></div>
+    <div class="row">
+      <div><label for="waste">Waste allowance (%)</label><input id="waste" type="number" min="0" max="50" step="1" value="10"></div>
+      <div id="finishWrap"><label for="finish">Finish</label>
+        <select id="finish"><option value="broom">Broom</option><option value="colored">Colored</option><option value="exposed">Exposed aggregate</option><option value="stamped">Stamped</option></select></div>
+    </div>
+    <label><input type="checkbox" id="removeOld" style="width:auto"> Remove old concrete first</label>
+    <p class="err" id="err"></p>
+  </section>
+  <section class="card" id="result">
+    <h2>2. What to order</h2>
+    <div class="big" id="yards">-</div>
+    <div id="order" style="color:var(--muted)"></div>
+    <div class="stats">
+      <div class="stat"><b id="b80">-</b><span>80 lb bags</span></div>
+      <div class="stat"><b id="b60">-</b><span>60 lb bags</span></div>
+      <div class="stat"><b id="b40">-</b><span>40 lb bags</span></div>
+    </div>
+    <p id="suggest"></p>
+    <div id="slabExtras"><p id="rebar"></p><p id="cost"></p></div>
+  </section>
+  <section class="card">
+    <h2>3. Plan the pour day</h2>
+    <div class="row">
+      <div><label for="high">Forecast high (&deg;F)</label><input id="high" type="number" value="104"></div>
+      <div><label for="month">Month</label><select id="month"></select></div>
+    </div>
+    <p><span id="risk" class="risk">-</span> <span id="start"></span></p>
+  </section>
+  <section class="card">
+    <h2>Tips and cure schedule</h2>
+    <ul id="tips"></ul>
+    <p style="font-size:.9rem;color:var(--muted)">Foot traffic after 2 days, vehicles after 7 days, keep moist for 7 days, design strength at 28 days.</p>
+  </section>
+</main>
+<footer>
+  Formulas: L x W x thickness; bags yield 0.60 / 0.45 / 0.30 ft&sup3; (80 / 60 / 40 lb); rebar grid with 10 % lap on 20 ft sticks; costs are rough 2026 planning ranges, not a quote.
+  Runs in your browser: no tracking, nothing stored. Open source:
+  <a href="https://github.com/nbkdevs/concrete-contractors-phoenix">github.com/nbkdevs/concrete-contractors-phoenix</a>.
+  For a site visit and a firm price, talk to <a href="https://concretecontractorsphoenix.net/">Concrete Contractors Phoenix</a>.
+</footer>
+<script src="estimator.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

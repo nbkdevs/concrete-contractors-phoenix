@@ -1,0 +1,34 @@
+# Concrete Contractors Estimator
+
+> Free, open-source concrete take-off tools: cubic yards with waste, ready-mix order quantity, 80/60/40 lb bag counts, rebar and mesh, rough installed cost and hot-weather pour advice. Published by Concrete Contractors Phoenix (https://concretecontractorsphoenix.net/).
+
+## Packages
+
+- [npm: concrete-contractors-estimator](https://www.npmjs.com/package/concrete-contractors-estimator): JavaScript/TypeScript library and CLI
+- [PyPI: concrete-contractors-estimator](https://pypi.org/project/concrete-contractors-estimator/): Python library and CLI
+- [crates.io: concrete-contractors-estimator](https://crates.io/crates/concrete-contractors-estimator): Rust crate and CLI
+- [pub.dev: concrete_contractors_estimator](https://pub.dev/packages/concrete_contractors_estimator): Dart and Flutter
+- [NuGet: PhoenixConcreteContractors.Estimator](https://www.nuget.org/packages/PhoenixConcreteContractors.Estimator): .NET
+- [RubyGems: concrete_contractors_estimator](https://rubygems.org/gems/concrete_contractors_estimator): Ruby library and CLI
+- [Packagist: phoenixconcretecontractors/concrete-contractors-estimator](https://packagist.org/packages/phoenixconcretecontractors/concrete-contractors-estimator): PHP
+- [Docker Hub: iamnazzal/concrete-contractors-estimator](https://hub.docker.com/r/iamnazzal/concrete-contractors-estimator): web app and JSON API
+- [Hugging Face Space](https://huggingface.co/spaces/iamnazzal/concrete-contractors-estimator): in-browser calculator
+
+## Docs
+
+- [Shared formulas (SPEC.md)](https://github.com/nbkdevs/concrete-contractors-phoenix/blob/main/SPEC.md)
+- [Agent skill (SKILL.md)](https://github.com/nbkdevs/concrete-contractors-phoenix/blob/main/skills/concrete-contractors-estimator/SKILL.md)
+- [Repository](https://github.com/nbkdevs/concrete-contractors-phoenix)
+
+## Formulas
+
+- Slab cubic feet = L x W x T/12; footing = L x W/12 x D/12; column = pi x (D/24)^2 x H x count; steps = W x run/12 x rise/12 x n(n+1)/2
+- Waste default 10 %; yards = ft3 / 27; order in quarter yards
+- Bags: 80 lb 0.60 ft3, 60 lb 0.45 ft3, 40 lb 0.30 ft3
+- Rebar: grid at spacing S with 10 % lap on 20 ft sticks; mesh: 5 x 10 ft sheets with 10 % overlap
+- Cost per sq ft (USD): broom 6-10, colored 8-13, exposed 9-14, stamped 12-20
+- Pour bands by forecast high: <90 low, 90-99 moderate, 100-109 high, >=110 extreme
+
+## About
+
+Concrete Contractors Phoenix is a licensed Arizona concrete contractor (since 2016) for driveways, patios, stamped concrete, pool decks, repairs, garage floor coatings, slabs, commercial and warehouse floors and parking lots, planning every job around heat, monsoon runoff and desert soil: https://concretecontractorsphoenix.net/

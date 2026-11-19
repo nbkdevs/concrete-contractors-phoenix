@@ -1,0 +1,11 @@
+{
+  "name": "concrete-contractors-estimator-server",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Concrete contractors estimator web app and JSON API (Docker image)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "test": "node --test test/*.test.js" },
+  "homepage": "https://concretecontractorsphoenix.net/",
+  "author": "Phoenix Concrete Contractors",
+  "license": "MIT"
+}

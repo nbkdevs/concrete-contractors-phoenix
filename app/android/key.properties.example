@@ -1,0 +1,6 @@
+# Copy to android/key.properties (git-ignored). The real file lives outside the repo:
+# /home/box/keystores/concrete-contractors-estimator-key.properties
+storePassword=...
+keyPassword=...
+keyAlias=upload
+storeFile=/home/box/keystores/concrete-contractors-estimator-upload.jks

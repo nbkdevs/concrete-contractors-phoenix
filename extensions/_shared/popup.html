@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Slab &amp; Bag Calculator</title>
+<link rel="stylesheet" href="popup.css">
+</head>
+<body>
+<header>
+  <img src="icons/icon-48.png" alt="" width="28" height="28">
+  <h1>Slab &amp; Bag Calculator</h1>
+</header>
+<nav id="tabs">
+  <button data-s="slab" class="on">Slab</button>
+  <button data-s="footing">Footing</button>
+  <button data-s="column">Column</button>
+  <button data-s="steps">Steps</button>
+</nav>
+<section id="fields"></section>
+<label class="waste">Waste allowance <input id="waste" type="number" min="0" max="50" step="1" value="10"> %</label>
+<p id="err" role="alert"></p>
+<section id="out">
+  <div class="yards"><b id="yd">-</b><span id="order"></span></div>
+  <div class="bags">
+    <div><b id="b80">-</b><span>80 lb</span></div>
+    <div><b id="b60">-</b><span>60 lb</span></div>
+    <div><b id="b40">-</b><span>40 lb</span></div>
+  </div>
+  <p id="tip"></p>
+  <p id="rebar"></p>
+</section>
+<footer>Bag yields 0.60 / 0.45 / 0.30 ft&sup3;. Works offline; nothing is stored or sent.</footer>
+<script src="calc.js"></script>
+<script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+name: concrete_estimator_app
+description: "Concrete Contractors Estimator: concrete volume, bags, rebar, cost range and hot-weather pour planner."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.3.0
+  concrete_contractors_estimator:
+    path: ../packages/pub
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true

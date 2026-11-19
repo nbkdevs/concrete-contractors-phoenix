@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "concrete-contractors-estimator"
+version = "1.0.0"
+description = "Concrete contractors estimator: slab, driveway, footing, column and steps volume, bag counts, rebar, cost range and hot-weather pour advice."
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Phoenix Concrete Contractors" }]
+keywords = ["concrete", "concrete-calculator", "concrete-contractors", "cubic-yards", "slab", "rebar", "estimator"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Intended Audience :: End Users/Desktop",
+  "Topic :: Scientific/Engineering",
+  "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://concretecontractorsphoenix.net/"
+Documentation = "https://concretecontractorsphoenix.net/"
+Source = "https://github.com/nbkdevs/concrete-contractors-phoenix"
+Issues = "https://github.com/nbkdevs/concrete-contractors-phoenix/issues"
+
+[project.scripts]
+concrete-contractors-estimator = "concrete_contractors_estimator.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

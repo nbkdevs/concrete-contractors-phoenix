@@ -1,0 +1,17 @@
+{
+  "name": "phoenixconcretecontractors/concrete-contractors-estimator",
+  "description": "Concrete contractors estimator for PHP: slab, driveway, footing, column and steps volume in cubic yards, 80/60/40 lb bag counts, rebar and mesh, rough cost range and hot-weather pour advice. Zero dependencies.",
+  "type": "library",
+  "keywords": ["concrete", "concrete-calculator", "concrete-contractors", "cubic-yards", "slab", "rebar", "estimator", "construction"],
+  "homepage": "https://concretecontractorsphoenix.net/",
+  "license": "MIT",
+  "authors": [{ "name": "Phoenix Concrete Contractors", "homepage": "https://concretecontractorsphoenix.net/" }],
+  "support": {
+    "issues": "https://github.com/nbkdevs/concrete-contractors-phoenix/issues",
+    "source": "https://github.com/nbkdevs/concrete-contractors-phoenix"
+  },
+  "require": { "php": ">=8.1" },
+  "autoload": { "psr-4": { "PhoenixConcreteContractors\\Estimator\\": "packages/packagist/src/" } },
+  "scripts": { "test": "php packages/packagist/tests/run.php" },
+  "minimum-stability": "stable"
+}

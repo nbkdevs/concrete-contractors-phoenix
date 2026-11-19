@@ -1,0 +1,14 @@
+{
+  "$schema": "https://context7.com/schema/context7.json",
+  "projectTitle": "Concrete Contractors Estimator",
+  "description": "Dependency-free concrete take-off libraries (JavaScript, Python, Rust, Dart, C#, Ruby, PHP), an agent skill and a static calculator: slab, footing, column and steps volume with waste, cubic yards and ready-mix order quantity, 80/60/40 lb bag counts, rebar and mesh, rough installed cost range and hot-weather pour advice.",
+  "folders": ["packages", "skills"],
+  "excludeFolders": ["packages/docker", "app", "extensions", "themes", "store-graphics", "listings"],
+  "rules": [
+    "Volume with waste V = raw cubic feet x (1 + waste); default waste 0.10. Cubic yards = V / 27 rounded to 2 decimals; order yards = yards rounded up to the next 0.25.",
+    "Bag yields: 80 lb = 0.60 ft3, 60 lb = 0.45 ft3, 40 lb = 0.30 ft3; bag counts are ceil(V / yield) after rounding to 6 decimals. Suggest bags below 1 cubic yard, ready-mix otherwise.",
+    "Rebar grid: floor(W*12/S)+1 bars of length L plus floor(L*12/S)+1 bars of length W; sticks = ceil(LF*1.1/20). Mesh sheets = ceil(area*1.1/50).",
+    "Installed cost per sq ft USD: broom 6-10, colored 8-13, exposed 9-14, stamped 12-20; x(1+0.1*(T-4)) above 4 in; +2-4 per sq ft to remove old concrete.",
+    "Pour advice bands by forecast high: <90 low, 90-99 moderate (start by 7 am), 100-109 high (5-6 am, finish by 10), >=110 extreme; months 6-9 add a monsoon tip. Cure: foot traffic 2 d, vehicles 7 d, moist cure 7 d, full strength 28 d."
+  ]
+}
