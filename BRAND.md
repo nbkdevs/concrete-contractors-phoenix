@@ -28,5 +28,7 @@
 | Android app | Concrete Contractors Estimator, `net.concretecontractorsphoenix.estimator` |
 | Browser extension (Edge, Firefox) | Slab & Bag Calculator (no keyword, brand or site in name/description; gecko id `slab-bag-calculator@nbkdevs.github.io`) |
 | Chrome theme | Saguaro Sunset (not brand-named) |
+| VS Code Marketplace / Open VSX | `nbkdevs.concrete-contractors-estimator` ("Concrete Contractors Estimator", packages/vscode) |
+| SourceForge | "Concrete Contractors Estimator" (listings/SOURCEFORGE.md) |
 
 Colours: terracotta `#C8553D`, sun gold `#E9A03B`, dusk violet `#2B1A4A`, sand `#FBF6EF`.
