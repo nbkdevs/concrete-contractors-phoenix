@@ -24,7 +24,7 @@ Run the tests with `composer test`.
 
 ## Links
 
-- Driveways, patios, stamped concrete and repairs planned for desert heat: [Concrete Contractors Phoenix](https://concretecontractorsphoenix.net/)
+- Driveways, patios, stamped concrete and repairs planned for desert heat, from [Phoenix Concrete Contractors](https://concretecontractorsphoenix.net/).
 - Source: https://github.com/nbkdevs/concrete-contractors-phoenix
 
 MIT licensed.

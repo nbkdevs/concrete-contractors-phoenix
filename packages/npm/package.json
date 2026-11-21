@@ -1,6 +1,6 @@
 {
   "name": "concrete-contractors-estimator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Concrete contractors estimator: slab, driveway, patio, footing, column and steps volume in cubic yards, 80/60/40 lb bag counts, rebar and mesh, rough cost range and hot-weather pour advice. Zero dependencies.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

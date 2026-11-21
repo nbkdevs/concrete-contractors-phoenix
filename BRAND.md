@@ -3,7 +3,7 @@
 | Item | Value |
 |---|---|
 | Target site | https://concretecontractorsphoenix.net/ (homepage only) |
-| In-text anchors | Rotate. Keep "Concrete Contractors Phoenix" as the most common (about 40–50% of listings). Mix in natural variations (concrete contractor in Phoenix, Phoenix concrete company, concrete services), the brand "Phoenix Concrete Contractors", and the naked URL. At most one or two site links per page, sometimes just one. |
+| In-text anchors | At most one or two site links per page. On dofollow pages (GitHub README, Codeberg, Bitbucket, Hugging Face, pub.dev, Docker Hub, crates.io/docs.rs, ClawHub) use the main keyword: "Concrete Contractors Phoenix" or "concrete contractors". On nofollow pages (PyPI, npm, RubyGems, NuGet, Packagist package README) use a variation, the brand "Phoenix Concrete Contractors", or the naked URL. |
 | Homepage / support / website / url fields | https://concretecontractorsphoenix.net/ |
 | Privacy page (Edge, Amazon) | https://concretecontractorsphoenix.net/privacy-policy/ |
 | Author / vendor | Phoenix Concrete Contractors |

@@ -33,7 +33,7 @@ Tags: `1.0.1`, `latest` (linux/amd64 and linux/arm64). Cost figures are planning
 
 ## Links
 
-- Driveways, patios, stamped concrete and repairs planned for desert heat, from a [Phoenix concrete company](https://concretecontractorsphoenix.net/).
+- Driveways, patios, stamped concrete and repairs planned for desert heat: [Concrete Contractors Phoenix](https://concretecontractorsphoenix.net/).
 - Source: https://github.com/nbkdevs/concrete-contractors-phoenix/tree/main/packages/docker
 
 MIT licensed.
