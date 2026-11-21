@@ -40,6 +40,7 @@ numbers; the formulas are in [SPEC.md](SPEC.md).
 | Agents | [SKILL.md](skills/concrete-contractors-estimator/SKILL.md) | ClawHub skill |
 | Android | [Flutter app](app) | Material 3, offline, no permissions |
 | Edge / Firefox | [Slab & Bag Calculator](extensions) | zero-permission popup |
+| VS Code | [Concrete Contractors Estimator](packages/vscode) | estimator panel + insert as Markdown table |
 
 ```js
 const c = require('concrete-contractors-estimator');
@@ -60,6 +61,7 @@ packages/npm|pypi|crates|pub|nuget|rubygems|packagist   libraries + CLIs, same f
 packages/docker/        web app + JSON API image
 packages/huggingface-space/   static calculator page
 skills/                 ClawHub SKILL.md
+packages/vscode/        VS Code extension (estimator panel, Markdown insert)
 extensions/             Edge + Firefox "Slab & Bag Calculator" (MV3, no permissions)
 themes/chrome/          "Saguaro Sunset" Chrome theme
 store-graphics/, listings/    store assets and listing copy
@@ -87,6 +89,13 @@ Tests: `npm test` (packages/npm, packages/docker), `python -m unittest` (package
 - Docker Hub: [iamnazzal/concrete-contractors-estimator](https://hub.docker.com/r/iamnazzal/concrete-contractors-estimator)
 - Hugging Face: [Concrete Contractors Estimator Space](https://huggingface.co/spaces/iamnazzal/concrete-contractors-estimator)
 - ClawHub: [concrete-contractors-estimator skill](https://clawhub.ai/nbkdevs/concrete-contractors-estimator)
+- Packagist: [phoenixconcretecontractors/concrete-contractors-estimator](https://packagist.org/packages/phoenixconcretecontractors/concrete-contractors-estimator)
+- GitLab mirror: [nbkdevs/concrete-contractors-phoenix](https://gitlab.com/nbkdevs/concrete-contractors-phoenix)
+- Amazon Appstore: [Concrete Contractors Estimator for Android](https://www.amazon.com/dp/B0HS7P7BBH) (same ASIN on amazon.co.uk, .de, .fr, .it, .es, .co.jp, .ca, .com.br, .com.mx and .com.au)
+- Microsoft Edge Add-ons: [Slab & Bag Calculator](https://microsoftedge.microsoft.com/addons/detail/giphlfaphcidfjkdncbkgkofomjcpbbc)
+- Chrome Web Store: [Saguaro Sunset theme](https://chromewebstore.google.com/detail/lahjefhpjnlgbacnbhplakkdpkkaabio)
+- Product Hunt: [Concrete Contractors Estimator](https://www.producthunt.com/products/concrete-contractors-estimator)
+- Package indexes: [docs.rs](https://docs.rs/concrete-contractors-estimator), [socket.dev](https://socket.dev/npm/package/concrete-contractors-estimator), [libraries.io](https://libraries.io/npm/concrete-contractors-estimator), [pypistats](https://pypistats.org/packages/concrete-contractors-estimator), [npm.io](https://npm.io/package/concrete-contractors-estimator)
 <!-- elsewhere:end -->
 
 ## License
