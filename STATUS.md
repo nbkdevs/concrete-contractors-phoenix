@@ -1,12 +1,12 @@
 # Status: Concrete Contractors Estimator (concretecontractorsphoenix.net)
 
-Updated 21 Nov 2026, 13:18 PKT (Asia/Karachi). Synced with the tracking sheet on the same date.
+Updated 21 Nov 2026, 14:03 PKT (Asia/Karachi). Library and Docker listings republished at 1.0.1 (pub.dev and crates.io 1.0.2) with dofollow/nofollow anchor rules.
 
 - Tracking sheet: [Softrank - concretecontractorsphoenix.net](https://docs.google.com/spreadsheets/d/1PQQJMmDNSL_YzQAeUNoe-UCVAxUJnA4IQJBVr5-ejiQ/edit), tab Softrank. One row per domain; the Amazon Appstore has one row per TLD.
-- Anchors: "Concrete Contractors Phoenix" stays the most common, mixed with variations (concrete contractor in Phoenix, Phoenix concrete company, concrete services), the brand "Phoenix Concrete Contractors", and the naked URL. At most one or two site links per page. Homepage / support / website fields: https://concretecontractorsphoenix.net/. Privacy page (Edge, Amazon): https://concretecontractorsphoenix.net/privacy-policy/.
+- Anchors: at most one or two site links per page. Dofollow pages (GitHub README, Codeberg, Bitbucket, Hugging Face, pub.dev, Docker Hub, crates.io/docs.rs, ClawHub) use the main keyword "Concrete Contractors Phoenix" or "concrete contractors". Nofollow pages (PyPI, npm, RubyGems, NuGet, the Packagist package README) use a variation, the brand "Phoenix Concrete Contractors", or the naked URL. Homepage / support / website fields: https://concretecontractorsphoenix.net/. Privacy page (Edge, Amazon): https://concretecontractorsphoenix.net/privacy-policy/.
 - 19 Nov 2026, Nazzal: full softrank links, build and deploy everything; skip Google Play, Great Apps, Popular Apps and AppBrain (nav-ai.net skipped later).
-- Git tag `v1.0.0` is on GitHub (Packagist version).
-- 31 of 37 sheet rows are Live.
+- Git tag `v1.0.2` is on GitHub (Packagist version).
+- 33 of 42 sheet rows are Live.
 
 | Sheet row | Platform | Item type | Link | DA/DR | URL | Status |
 |---|---|---|---|---|---|---|
@@ -15,7 +15,7 @@ Updated 21 Nov 2026, 13:18 PKT (Asia/Karachi). Synced with the tracking sheet on
 | 4 | PyPi | Python Package | Nofollow | 83/91 | https://pypi.org/project/concrete-contractors-estimator/ | Live |
 | 5 | Crates io | Rust package | Dofollow | 56/87 | https://crates.io/crates/concrete-contractors-estimator | Live |
 | 6 | Pub dev | Dart Package | Nofollow | 55/86 | https://pub.dev/packages/concrete_contractors_estimator | Live |
-| 7 | NuGet | C Package | Nofollow | 71/89 | https://www.nuget.org/packages/PhoenixConcreteContractors.Estimator/1.0.0 | Live |
+| 7 | NuGet | C Package | Nofollow | 71/89 | https://www.nuget.org/packages/PhoenixConcreteContractors.Estimator/ | Live |
 | 8 | RubyGems | Ruby Package | Nofollow | 74/87 | https://rubygems.org/gems/concrete_contractors_estimator | Live |
 | 9 | Docker Hub | Docker Image | Dofollow | 90/92 | https://hub.docker.com/r/iamnazzal/concrete-contractors-estimator | Live |
 | 10 | HuggingFace Space | Static Space | Dofollow | 85/91 | https://huggingface.co/spaces/iamnazzal/concrete-contractors-estimator | Live |
@@ -37,7 +37,7 @@ Updated 21 Nov 2026, 13:18 PKT (Asia/Karachi). Synced with the tracking sheet on
 | 26 | Packagist | Php Package | Nofollow | 78/88 | https://packagist.org/packages/phoenixconcretecontractors/concrete-contractors-estimator | Live |
 | 27 | Gitlab | Source Code | Nofollow | 92/92 | https://gitlab.com/nbkdevs/concrete-contractors-phoenix | Live |
 | 28 | Product Hunt | SaaS/Website | Nofollow | 95/91 | https://www.producthunt.com/products/concrete-contractors-estimator | Live |
-| 29 | Design Nominees | Website | Dofollow | 50/73 | – | Not submitted - free submissions closed (paid only) |
+| 29 | Design Nominees | Website | Dofollow | 50/73 | https://www.designnominees.com/apps/concrete-contractors-estimator | Pending Review |
 | 30 | Socket Dev | NPM Package | Nofollow | 52/78 | https://socket.dev/npm/package/concrete-contractors-estimator | Live |
 | 31 | Libraries io | NPM Package | Nofollow | 52/75 | https://libraries.io/npm/concrete-contractors-estimator | Live |
 | 32 | PyPI Stats | Python Package | Dofollow | 41/74 | https://pypistats.org/packages/concrete-contractors-estimator | Live |
@@ -47,23 +47,30 @@ Updated 21 Nov 2026, 13:18 PKT (Asia/Karachi). Synced with the tracking sheet on
 | 36 | Launching Next | SaaS/Website | – | – | https://www.launchingnext.com/ (queue id 184806) | Pending Review |
 | 37 | PitchWall | SaaS/Website | – | – | https://pitchwall.co/product/concrete-contractors-estimator | Pending Review |
 | 38 | Uneed | SaaS/Website | – | – | https://www.uneed.best/edit/waiting-line/77857 | Draft - free line allows one launch at a time |
+| 39 | Bitbucket | Source Code | – | – | https://bitbucket.org/nbkdevs/concrete-contractors-phoenix | Live |
+| 40 | Codeberg | Source Code | – | – | https://codeberg.org/nbkdevs/concrete-contractors-phoenix | Live |
+| 41 | VS Code Marketplace | Editor Extension | – | – | https://marketplace.visualstudio.com/items?itemName=nbkdevs.concrete-contractors-estimator | Pending (Microsoft verification; needs a re-publish once `VSCE_PAT` is available so the README anchor is current) |
+| 42 | Indie Hackers | SaaS/Website | – | – | – | Pending (add-product page returned 404 from the signed-in session) |
+| 43 | TinyLaunch | SaaS/Website | – | – | – | Pending |
 
-## Built, not published yet (added 21 Nov 2026)
+## Built, not published yet
 
 | Platform | Asset | Where | Blocker |
 |---|---|---|---|
-| VS Code Marketplace | `nbkdevs.concrete-contractors-estimator` "Concrete Contractors Estimator" | [packages/vscode](packages/vscode) (`concrete-contractors-estimator-1.0.0.vsix`) | needs a Marketplace publisher + `VSCE_PAT` |
-| Open VSX | same .vsix | [packages/vscode/PUBLISHING.md](packages/vscode/PUBLISHING.md) | needs an open-vsx.org account + `OVSX_PAT` |
+| Open VSX | same .vsix as the Marketplace listing | [packages/vscode/PUBLISHING.md](packages/vscode/PUBLISHING.md) | needs an open-vsx.org account + `OVSX_PAT` |
 | SourceForge | "Concrete Contractors Estimator" | [listings/SOURCEFORGE.md](listings/SOURCEFORGE.md), files in [listings/sourceforge](listings/sourceforge) | needs a SourceForge account/login |
-| Codeberg / Bitbucket | repo mirrors | [listings/MIRRORS.md](listings/MIRRORS.md) | needs `CODEBERG_TOKEN` / Bitbucket app password |
 
 ## Follow-ups
 
 - Firefox AMO (row 12): still in Mozilla's review queue; mark Live when approved.
+- Design Nominees (row 29): free app submission is pending review; after approval, add the site URL in the Windows or Android field.
 - Context7 (row 35): processing the llms.txt; mark Live when done.
 - Launching Next, PitchWall (rows 36–37): recheck. Uneed (row 38): draft in the free waiting line (one launch at a time).
-- Design Nominees (row 29): free submissions closed; paid only, skipped unless Nazzal approves.
-- NuGet API key expires soon; regenerate before the next NuGet push.
+- Indie Hackers (row 42) and TinyLaunch (row 43): still pending.
+- VS Code Marketplace (row 41) and Open VSX: need `VSCE_PAT` / `OVSX_PAT` to publish the updated README.
+- ClawHub skill body now uses the main-keyword anchor; the live skill is still 1.0.0 and needs a republish (no ClawHub token on the box).
+- Bitbucket and Codeberg are live but were one-time imports; re-sync them so they pick up the dofollow README anchors.
+- NuGet API key expires in 5 days (around 26 Nov 2026); regenerate before the next NuGet push.
 
 ## Android signing
 

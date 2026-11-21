@@ -1,6 +1,6 @@
 # Packages: link map and publish commands
 
-Every homepage / project URL field points to https://concretecontractorsphoenix.net/. In-text README anchors rotate: "Concrete Contractors Phoenix" stays the most common, mixed with natural variations (concrete contractor in Phoenix, Phoenix concrete company, concrete services), the brand "Phoenix Concrete Contractors", and the naked URL. At most one or two site links per page. Author: Phoenix Concrete Contractors. MIT. Version 1.0.1.
+Every homepage / project URL field points to https://concretecontractorsphoenix.net/. At most one or two site links per page. Dofollow listings use the main keyword "Concrete Contractors Phoenix" or "concrete contractors"; nofollow listings (PyPI, npm, RubyGems, NuGet, the Packagist package README) use a variation, the brand "Phoenix Concrete Contractors", or the naked URL. Author: Phoenix Concrete Contractors. MIT. Version 1.0.1 (pub.dev and crates.io 1.0.2).
 
 | Folder | Registry name | Publish (tokens from env, never printed) |
 |---|---|---|
