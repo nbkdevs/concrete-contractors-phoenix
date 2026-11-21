@@ -3,7 +3,7 @@
 | Item | Value |
 |---|---|
 | Target site | https://concretecontractorsphoenix.net/ (homepage only) |
-| In-text anchor | Concrete Contractors Phoenix -> https://concretecontractorsphoenix.net/ |
+| In-text anchors | Rotate. Keep "Concrete Contractors Phoenix" as the most common (about 40–50% of listings). Mix in natural variations (concrete contractor in Phoenix, Phoenix concrete company, concrete services), the brand "Phoenix Concrete Contractors", and the naked URL. At most one or two site links per page, sometimes just one. |
 | Homepage / support / website / url fields | https://concretecontractorsphoenix.net/ |
 | Privacy page (Edge, Amazon) | https://concretecontractorsphoenix.net/privacy-policy/ |
 | Author / vendor | Phoenix Concrete Contractors |

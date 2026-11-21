@@ -1,6 +1,6 @@
 # Concrete Contractors Estimator
 
-> Free, open-source concrete take-off tools: cubic yards with waste, ready-mix order quantity, 80/60/40 lb bag counts, rebar and mesh, rough installed cost and hot-weather pour advice. Published by Concrete Contractors Phoenix (https://concretecontractorsphoenix.net/).
+> Free, open-source concrete take-off tools: cubic yards with waste, ready-mix order quantity, 80/60/40 lb bag counts, rebar and mesh, rough installed cost and hot-weather pour advice. Published by Concrete Contractors Phoenix.
 
 ## Packages
 
@@ -31,4 +31,4 @@
 
 ## About
 
-Concrete Contractors Phoenix is a licensed Arizona concrete contractor (since 2016) for driveways, patios, stamped concrete, pool decks, repairs, garage floor coatings, slabs, commercial and warehouse floors and parking lots, planning every job around heat, monsoon runoff and desert soil: https://concretecontractorsphoenix.net/
+[Concrete Contractors Phoenix](https://concretecontractorsphoenix.net/) is a licensed Arizona concrete contractor (since 2016) for driveways, patios, stamped concrete, pool decks, repairs, garage floor coatings, slabs, commercial and warehouse floors and parking lots, planning every job around heat, monsoon runoff and desert soil.

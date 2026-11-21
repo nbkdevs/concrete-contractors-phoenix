@@ -12,7 +12,7 @@
 //! assert_eq!(e.bags80, 123);
 //! ```
 //!
-//! Planned for desert work by [Concrete Contractors Phoenix](https://concretecontractorsphoenix.net/).
+//! Planned for desert work: <https://concretecontractorsphoenix.net/>.
 
 use std::fmt;
 

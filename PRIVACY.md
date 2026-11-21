@@ -2,7 +2,7 @@
 
 Concrete Contractors Estimator (Android app, packages, web page) and the Slab & Bag Calculator browser
 extension are published by Phoenix Concrete Contractors. Our website is
-[Concrete Contractors Phoenix](https://concretecontractorsphoenix.net/), and its own privacy policy is at
+[Phoenix Concrete Contractors](https://concretecontractorsphoenix.net/), and its own privacy policy is at
 https://concretecontractorsphoenix.net/privacy-policy/.
 
 Last updated: 19 November 2026.
@@ -29,5 +29,5 @@ The tools are general-purpose calculators and collect no data from anyone, inclu
 
 ## Contact
 
-Questions: use the contact options on https://concretecontractorsphoenix.net/ or open an issue at
+Questions: open an issue at
 https://github.com/nbkdevs/concrete-contractors-phoenix/issues.

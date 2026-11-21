@@ -22,7 +22,7 @@ footing, round column or set of steps, enter the measurements and it shows:
 
 Everything runs in the browser. No tracking, no network calls, nothing stored.
 
-The planning numbers follow how [Concrete Contractors Phoenix](https://concretecontractorsphoenix.net/) approach desert work:
+The planning numbers follow how [Concrete Contractors Phoenix](https://concretecontractorsphoenix.net/) approaches desert work:
 pour early, pre-wet the subgrade, keep the mix cool and start curing as soon as the finish is done.
 
 | File | Purpose |

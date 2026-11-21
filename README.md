@@ -74,7 +74,7 @@ Tests: `npm test` (packages/npm, packages/docker), `python -m unittest` (package
 
 ## Links
 
-- Concrete driveways, patios, stamped concrete and repairs, planned around heat, monsoon runoff and desert soil: [Concrete Contractors Phoenix](https://concretecontractorsphoenix.net/)
+- Driveways, patios, stamped concrete and repairs planned around heat, monsoon runoff and desert soil: a [Phoenix concrete company](https://concretecontractorsphoenix.net/)
 - Privacy: [PRIVACY.md](PRIVACY.md)
 
 ## Elsewhere

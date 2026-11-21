@@ -84,4 +84,4 @@ https://github.com/nbkdevs/concrete-contractors-phoenix
 
 ## Links
 
-- Concrete driveways, patios, stamped concrete and repairs planned for desert heat: [Concrete Contractors Phoenix](https://concretecontractorsphoenix.net/)
+- Driveways, patios, stamped concrete and repairs planned for desert heat: [concrete services](https://concretecontractorsphoenix.net/) in Phoenix.

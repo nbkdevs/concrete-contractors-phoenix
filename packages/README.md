@@ -1,7 +1,6 @@
 # Packages: link map and publish commands
 
-Every homepage / project URL field and every README "Links" anchor ("Concrete Contractors Phoenix") points to
-https://concretecontractorsphoenix.net/. Author: Phoenix Concrete Contractors. MIT. Version 1.0.0.
+Every homepage / project URL field points to https://concretecontractorsphoenix.net/. In-text README anchors rotate: "Concrete Contractors Phoenix" stays the most common, mixed with natural variations (concrete contractor in Phoenix, Phoenix concrete company, concrete services), the brand "Phoenix Concrete Contractors", and the naked URL. At most one or two site links per page. Author: Phoenix Concrete Contractors. MIT. Version 1.0.0.
 
 | Folder | Registry name | Publish (tokens from env, never printed) |
 |---|---|---|

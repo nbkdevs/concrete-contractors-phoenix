@@ -1,9 +1,9 @@
 # Status: Concrete Contractors Estimator (concretecontractorsphoenix.net)
 
-Updated 21 Nov 2026, 11:50 PKT (Asia/Karachi). Synced with the tracking sheet on the same date.
+Updated 21 Nov 2026, 13:18 PKT (Asia/Karachi). Synced with the tracking sheet on the same date.
 
 - Tracking sheet: [Softrank - concretecontractorsphoenix.net](https://docs.google.com/spreadsheets/d/1PQQJMmDNSL_YzQAeUNoe-UCVAxUJnA4IQJBVr5-ejiQ/edit), tab Softrank. One row per domain; the Amazon Appstore has one row per TLD.
-- Anchor everywhere in text: "Concrete Contractors Phoenix" → https://concretecontractorsphoenix.net/; every homepage/support/website field = https://concretecontractorsphoenix.net/. Privacy page (Edge, Amazon): https://concretecontractorsphoenix.net/privacy-policy/.
+- Anchors: "Concrete Contractors Phoenix" stays the most common, mixed with variations (concrete contractor in Phoenix, Phoenix concrete company, concrete services), the brand "Phoenix Concrete Contractors", and the naked URL. At most one or two site links per page. Homepage / support / website fields: https://concretecontractorsphoenix.net/. Privacy page (Edge, Amazon): https://concretecontractorsphoenix.net/privacy-policy/.
 - 19 Nov 2026, Nazzal: full softrank links, build and deploy everything; skip Google Play, Great Apps, Popular Apps and AppBrain (nav-ai.net skipped later).
 - Git tag `v1.0.0` is on GitHub (Packagist version).
 - 31 of 37 sheet rows are Live.

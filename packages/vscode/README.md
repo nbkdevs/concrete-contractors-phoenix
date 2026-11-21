@@ -73,8 +73,7 @@ npm run package      # build the .vsix with @vscode/vsce
 
 ## Links
 
-Built and maintained by the team behind [Concrete Contractors Phoenix](https://concretecontractorsphoenix.net/),
-a licensed Arizona concrete contractor for driveways, patios, stamped concrete, slabs and foundations.
+Built and maintained by a licensed [concrete contractor in Phoenix](https://concretecontractorsphoenix.net/) for driveways, patios, stamped concrete, slabs and foundations.
 
 - Source: <https://github.com/nbkdevs/concrete-contractors-phoenix/tree/main/packages/vscode>
 - Privacy: the extension collects nothing. Site privacy policy: <https://concretecontractorsphoenix.net/privacy-policy/>
