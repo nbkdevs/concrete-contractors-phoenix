@@ -1,7 +1,7 @@
 {
   "name": "concrete-contractors-estimator-server",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Concrete contractors estimator web app and JSON API (Docker image)",
   "main": "server.js",
   "scripts": { "start": "node server.js", "test": "node --test test/*.test.js" },

@@ -29,7 +29,7 @@ Optional: `waste` (fraction, default 0.10), `spacing` (rebar inches, default 18)
  "bags80":123,"bags60":163,"bags40":245,"suggestion":"ready-mix"}
 ```
 
-Tags: `1.0.0`, `latest` (linux/amd64 and linux/arm64). Cost figures are planning numbers, not a quote.
+Tags: `1.0.1`, `latest` (linux/amd64 and linux/arm64). Cost figures are planning numbers, not a quote.
 
 ## Links
 

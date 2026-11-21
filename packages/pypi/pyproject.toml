@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "concrete-contractors-estimator"
-version = "1.0.0"
+version = "1.0.1"
 description = "Concrete contractors estimator: slab, driveway, footing, column and steps volume, bag counts, rebar, cost range and hot-weather pour advice."
 readme = "README.md"
 requires-python = ">=3.8"

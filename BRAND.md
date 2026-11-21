@@ -8,7 +8,7 @@
 | Privacy page (Edge, Amazon) | https://concretecontractorsphoenix.net/privacy-policy/ |
 | Author / vendor | Phoenix Concrete Contractors |
 | Licence | MIT |
-| Version | 1.0.0 |
+| Version | 1.0.1 (libraries and Docker image; app, extensions and theme remain 1.0.0) |
 | Asset concept | Concrete Contractors Estimator: volume (slab, driveway, patio, footing, column, steps), waste, yards, 80/60/40 lb bags, rebar/mesh, rough cost, hot-weather pour advice |
 
 ## Canonical names

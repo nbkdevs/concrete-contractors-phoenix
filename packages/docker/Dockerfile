@@ -6,7 +6,7 @@ LABEL org.opencontainers.image.title="Concrete Contractors Estimator" \
       org.opencontainers.image.documentation="https://github.com/nbkdevs/concrete-contractors-phoenix/tree/main/packages/docker" \
       org.opencontainers.image.licenses="MIT" \
       org.opencontainers.image.vendor="Phoenix Concrete Contractors" \
-      org.opencontainers.image.version="1.0.0"
+      org.opencontainers.image.version="1.0.1"
 WORKDIR /app
 COPY package.json server.js ./
 COPY lib ./lib

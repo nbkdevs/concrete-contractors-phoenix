@@ -18,4 +18,4 @@ __all__ = [
     "BAG_YIELD", "FINISHES", "slab_volume", "footing_volume", "column_volume", "steps_volume",
     "estimate", "rebar", "mesh_sheets", "cost_range", "pour_advice",
 ]
-__version__ = "1.0.0"
+__version__ = "1.0.1"

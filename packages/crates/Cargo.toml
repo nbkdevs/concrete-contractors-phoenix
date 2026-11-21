@@ -1,6 +1,6 @@
 [package]
 name = "concrete-contractors-estimator"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2021"
 rust-version = "1.70"
 description = "Concrete contractors estimator: slab, footing, column and steps volume, bag counts, rebar, cost range and hot-weather pour advice"
